@@ -1,0 +1,124 @@
+
+
+/* display-- inline start */
+.one {
+  /* width: 200px;  not support */
+  /* height: 200px;  not support */
+  background-color: blueviolet;
+  display: inline;
+  padding: 100px;
+  
+}
+.two {
+  /* width: 200px;  not support */
+  /* height: 200px;  not support */
+  background-color: rgb(36, 0, 70);
+  display: inline;
+  padding: 50px 70px; /*top:50px right:70px  found by default == bottom:50px left:70px*/
+}
+.three {
+  /* width: 200px;  not support */
+  /* height: 200px;  not support */
+  background-color: rgb(195, 4, 112);
+  display: inline;
+  padding: 50px 70px 90px; /*top:50px right:70px  bottom:90px found by default == left:70px*/
+}
+.four {
+  /* width: 200px;  not support */
+  /* height: 200px;  not support */
+  background-color: rgb(4, 195, 65);
+  display: inline;
+}
+
+/* display-- inline end */
+
+
+/* display-- block start*/
+
+.fruit{
+    margin-top: 110px;
+}
+
+
+.apple{
+    width: 200px; /*support*/
+    height: 200px; /*support*/
+    background-color: chartreuse;
+    display: block;
+}
+.orenge{
+    width: 200px; /*support*/
+    height: 200px; /*support*/
+    background-color: rgb(255, 111, 0);
+    display: block;
+    
+}
+
+.mango{
+    width: 200px; /*support*/
+    height: 200px; /*support*/
+    background-color: rgb(234, 2, 255);
+    display: block;
+}
+.banana{
+    width: 200px; /*support*/
+    height: 200px; /*support*/
+    background-color: rgb(255, 0, 17);
+    display: block;
+}
+
+/* display-- block end*/
+
+.flower{
+    margin-top: 30px;
+}
+.Rose{
+    width: 200px; /*support*/
+    height: 200px; /*support*/
+    background-color: rgb(70, 126, 146);
+    display: inline-block; 
+}
+
+
+.Poppy{
+    width: 200px; /*support*/
+    height: 200px; /*support*/
+    background-color: rgb(251, 125, 52);
+    display: inline-block; 
+}
+
+.tuberose{
+    width: 200px; /*support*/
+    height: 200px; /*support*/
+    background-color: rgb(255, 242, 0);
+    display: inline-block; 
+}
+
+.fabaceae{
+    width: 200px; /*support*/
+    height: 200px; /*support*/
+    background-color: rgb(13, 255, 0);
+    display: inline-block; 
+}
+
+/* background image and text */
+
+.banner{
+    background-image: url(../images/Aavesham-705x750-7e37abf0-f49b-11ee-a428-dbecada3be3a.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+}
+
+/* ======================== */
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
